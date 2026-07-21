@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Details form </title>
+</head>
+<body bgcolor="gray">
+    <form action="">
+
+        <fieldset>
+            <legend>Personal_details</legend>
+            <label for="">FirstName</label>
+            <input type="text" id="f_name" required><br> <br>
+            <label for="">lastName</label>
+            <input type="text" id="Lname" required> <br> <br>
+            <label for="">DOB</label>
+            <input type="date" id="dob"required> <br> <br>
+
+            <label for="email">Email</label>
+            <input type="email" id="email" required> <br><br>
+            
+        </fieldset>
+        <fieldset>
+           <legend>Educarion Details</legend>
+           
+           <label for="">Department</label> <br> <br>
+           <input type="radio" id="cs" name="dept">
+           <label for="CS">CS</label>
+           <input type="radio" id="cs" name="dept">
+           <label for="civil">civil</label>
+           <input type="radio" id="civil" name="dept">
+           <label for="EC">EC</label>
+           <input type="radio" id="EC" name="dept">
+           <label for="mech">mech</label> <br> <br>
+           <label for="">Year of graduation</label>
+           <input type="yog">
+           <datalist id="yog">
+            <option>2021</option>
+            <option>2022</option>
+            <option>2023</option>
+            <option>2025</option>
+            <option>2026</option>
+           </datalist> <br> <br>
+
+           <label for="">skills</label> <br><br>
+           <input type="checkbox" id="sql">
+           <label for="sql">SQL</label> <br><br>
+           <input type="checkbox" id="html">
+           <label for="html">Html</label> <br><br>
+           <input type="checkbox" id="css">
+           <label for="css">Css</label>
+
+
+
+        </fieldset>
+        <input type="submit">
+        
+        
+    </form>
+    
+</body>
+</html>
